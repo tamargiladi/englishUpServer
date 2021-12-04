@@ -9,6 +9,7 @@ export class TeachersService {
     }
 
     getAllTeachers(){
+        console.log("GET/TEACHERS:");
        return this.col.find().toArray();
     }
 

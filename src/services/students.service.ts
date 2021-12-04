@@ -5,6 +5,6 @@ import {StudentModel} from "../models";
 @Injectable()
 export class StudentsService {
 
-    constructor(public readonly col:Collection<StudentModel[]>) {
+    constructor(public readonly col:Collection<StudentModel>) {
     }
 }

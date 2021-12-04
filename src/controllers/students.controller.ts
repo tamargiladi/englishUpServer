@@ -9,6 +9,7 @@ export class StudentsController {
 
     @Get()
     getAllStudents(){
+        console.log('GET/STUDENTS');
         return this.studentsService.col.find().toArray();
     }
 }
